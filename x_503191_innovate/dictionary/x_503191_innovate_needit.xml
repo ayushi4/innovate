@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Needit " max_length="40" name="x_503191_innovate_needit" type="collection">
+        <element label="Full Name" max_length="32" name="full_name" reference="sys_user" type="reference"/>
+        <element label="Group name" max_length="32" name="group_name" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="full_name"/>
+        </index>
+        <index name="index2">
+            <element name="group_name"/>
+        </index>
+    </element>
+</database>
