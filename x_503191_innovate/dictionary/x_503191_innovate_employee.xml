@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee" max_length="40" name="x_503191_innovate_employee" type="collection">
+        <element label="Department" max_length="20" name="department" type="string"/>
+        <element label="Full name" max_length="40" name="full_name" reference="sys_user" type="reference"/>
+        <element label="ID" max_length="5" name="id" type="string"/>
+    </element>
+</database>
